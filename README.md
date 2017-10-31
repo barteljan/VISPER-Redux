@@ -9,9 +9,9 @@ VISPER-Redux is an implementation for redux in swift
 
 if you want to learn more about redux, have a look at the following tutorials and documentations:
 
-*[A cartoon guide to Flux](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207)
-*[A cartoon Intro to Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
-*[redux.js Documentation](http://redux.js.org/docs/introduction/)
+* [A cartoon guide to Flux](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207)
+* [A cartoon Intro to Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
+* [redux.js Documentation](http://redux.js.org/docs/introduction/)
 
 ## Example
 
