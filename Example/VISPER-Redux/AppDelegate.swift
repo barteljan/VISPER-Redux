@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  VISPER-Redux
 //
-//  Created by barteljan on 10/31/2017.
+//  Created by Jan Barteljan on 10/31/2017.
 //  Copyright (c) 2017 barteljan. All rights reserved.
 //
 
