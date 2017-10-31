@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VISPER-Redux_Example' do
+  pod 'VISPER-Redux', :path => '../'
+
+  target 'VISPER-Redux_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
