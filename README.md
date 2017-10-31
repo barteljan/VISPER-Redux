@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/VISPER-Redux.svg?style=flat)](http://cocoapods.org/pods/VISPER-Redux)
 [![Platform](https://img.shields.io/cocoapods/p/VISPER-Redux.svg?style=flat)](http://cocoapods.org/pods/VISPER-Redux)
 
-VISPER-Redux is an implementation for redux in swift
+VISPER-Redux is an implementation of the redux-architecture in swift
 
 if you want to learn more about redux, have a look at the following tutorials and documentations:
 

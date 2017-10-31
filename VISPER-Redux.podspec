@@ -1,10 +1,10 @@
 # Be sure to run `pod lib lint VISPER-Redux.podspec' to ensure this is a
 Pod::Spec.new do |s|
   s.name             = 'VISPER-Redux'
-  s.version          = '0.1.0'
-  s.summary          = 'VISPER-Redux is an implementation for the redux-architecture in swift.'
+  s.version          = '0.1.1'
+  s.summary          = 'VISPER-Redux is an implementation of the redux-architecture in swift.'
   s.description      = <<-DESC
-VISPER-Redux is an implementation for the redux-architecture in swift. It's a core function of the VISPER Application Framework for iOS-Apps
+VISPER-Redux is an implementation of the redux-architecture in swift. It's a core function of the VISPER Application Framework for iOS-Apps
                        DESC
 
   s.homepage         = 'https://github.com/barteljan/VISPER-Redux'
