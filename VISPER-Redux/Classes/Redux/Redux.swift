@@ -26,6 +26,20 @@ open class Redux<AppState> {
         }
     }
     
+    public convenience init(initialState: AppState,
+                middleware: Middleware<AppState> = Middleware<AppState>(),
+                reducerContainer: ReducerContainer = ReducerContainerImpl()){
+        
+        let appReducer : AppReducer<AppState> = {(provider, action, state) in
+            return provider.reduce(action: action, state: state)
+        }
+        
+        self.init(appReducer: appReducer,
+                initialState: initialState,
+                middleware: middleware,
+                reducerContainer: reducerContainer)
+    }
+    
     public init(appReducer: @escaping AppReducer<AppState>,
                initialState: AppState,
                  middleware: Middleware<AppState> = Middleware<AppState>(),
