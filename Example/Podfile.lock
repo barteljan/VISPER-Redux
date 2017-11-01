@@ -1,5 +1,5 @@
 PODS:
-  - VISPER-Redux (0.1.0)
+  - VISPER-Redux (0.1.1)
 
 DEPENDENCIES:
   - VISPER-Redux (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  VISPER-Redux: a608192cf9dedbe754ec74eded20fd004f036493
+  VISPER-Redux: a86bc8acc9f96b75b633735909a37b438a73ad38
 
 PODFILE CHECKSUM: 05f1fe83522c6cd8ea90660aab8833608790970c
 

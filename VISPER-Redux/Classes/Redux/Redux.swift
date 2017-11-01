@@ -28,8 +28,8 @@ open class Redux<AppState> {
     
     public init(appReducer: @escaping AppReducer<AppState>,
                initialState: AppState,
-           reducerContainer: ReducerContainer = ReducerContainerImpl(),
-                 middleware: Middleware<AppState> = Middleware<AppState>()){
+                 middleware: Middleware<AppState> = Middleware<AppState>(),
+                 reducerContainer: ReducerContainer = ReducerContainerImpl()){
         
         self.reducerContainer = reducerContainer
         self.store = Store(appReducer: appReducer,

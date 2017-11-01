@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		21B3F09554F3F00803693646 /* Pods_VISPER_Redux_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAEB92BED398002DDCD9FF7 /* Pods_VISPER_Redux_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		9AD482331FA8B244001102D0 /* ObservableStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4822B1FA8B244001102D0 /* ObservableStoreTests.swift */; };
 		9AD482341FA8B244001102D0 /* TestStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4822C1FA8B244001102D0 /* TestStore.swift */; };
 		9AD482351FA8B244001102D0 /* TestReducerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4822D1FA8B244001102D0 /* TestReducerContainer.swift */; };
@@ -21,6 +18,11 @@
 		9AD482381FA8B244001102D0 /* MockObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD482301FA8B244001102D0 /* MockObjects.swift */; };
 		9AD482391FA8B244001102D0 /* TestAnyActionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD482311FA8B244001102D0 /* TestAnyActionReducer.swift */; };
 		9AD4823A1FA8B244001102D0 /* ReactiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD482321FA8B244001102D0 /* ReactiveTests.swift */; };
+		9AD4823E1FA9DAE2001102D0 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4823D1FA9DAE2001102D0 /* States.swift */; };
+		9AD482411FA9DCB4001102D0 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD4823F1FA9DCB4001102D0 /* ExampleViewController.swift */; };
+		9AD482421FA9DCB4001102D0 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AD482401FA9DCB4001102D0 /* ExampleViewController.xib */; };
+		9AD482461FA9DFC0001102D0 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD482451FA9DFC0001102D0 /* Actions.swift */; };
+		9AD482481FA9E421001102D0 /* Reducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD482471FA9E421001102D0 /* Reducers.swift */; };
 		FCE48E210EEEB28489F8B545 /* Pods_VISPER_Redux_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18290E7D620749408B5350AF /* Pods_VISPER_Redux_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +45,7 @@
 		607FACD01AFB9204008FA782 /* VISPER-Redux_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VISPER-Redux_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* VISPER-Redux_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VISPER-Redux_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD4822B1FA8B244001102D0 /* ObservableStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableStoreTests.swift; sourceTree = "<group>"; };
@@ -57,6 +56,11 @@
 		9AD482301FA8B244001102D0 /* MockObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockObjects.swift; sourceTree = "<group>"; };
 		9AD482311FA8B244001102D0 /* TestAnyActionReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnyActionReducer.swift; sourceTree = "<group>"; };
 		9AD482321FA8B244001102D0 /* ReactiveTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveTests.swift; sourceTree = "<group>"; };
+		9AD4823D1FA9DAE2001102D0 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		9AD4823F1FA9DCB4001102D0 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		9AD482401FA9DCB4001102D0 /* ExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
+		9AD482451FA9DFC0001102D0 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		9AD482471FA9E421001102D0 /* Reducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducers.swift; sourceTree = "<group>"; };
 		C79DD7A468A78BAF2F5A7CFC /* Pods-VISPER-Redux_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VISPER-Redux_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VISPER-Redux_Example/Pods-VISPER-Redux_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F22F19DFA0F969484CACEC85 /* Pods-VISPER-Redux_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VISPER-Redux_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VISPER-Redux_Tests/Pods-VISPER-Redux_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA8FBFA924AF0C319D090B5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -117,11 +121,13 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				9AD482451FA9DFC0001102D0 /* Actions.swift */,
+				9AD4823D1FA9DAE2001102D0 /* States.swift */,
+				9AD482471FA9E421001102D0 /* Reducers.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				9AD4823F1FA9DCB4001102D0 /* ExampleViewController.swift */,
+				9AD482401FA9DCB4001102D0 /* ExampleViewController.xib */,
 			);
 			name = "Example for VISPER-Redux";
 			path = "VISPER-Redux";
@@ -269,9 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				9AD482421FA9DCB4001102D0 /* ExampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,8 +399,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9AD482461FA9DFC0001102D0 /* Actions.swift in Sources */,
+				9AD482481FA9E421001102D0 /* Reducers.swift in Sources */,
+				9AD4823E1FA9DAE2001102D0 /* States.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				9AD482411FA9DCB4001102D0 /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,25 +431,6 @@
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
