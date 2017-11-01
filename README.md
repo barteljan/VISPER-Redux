@@ -64,6 +64,19 @@ let reducer : (_ provider: ReducerProvider,_ action: ActionType, _ state: StateT
 ```
 
 the reducer will be applied to all actions of type ActionType and to all states of type StateType.
+A reducer can be added to your redux architecture by adding it to the reducer container.
+
+```swift
+// add a reduce function
+redux.reducerContainer.addReduceFunction(...)
+```
+
+```swift
+// add a action reducer instance
+redux.reducerContainer.addReducer(...)
+```
+
+
 
 An action is just an simple object conforming to the empty protocol Action, for example:
 
@@ -149,7 +162,6 @@ VISPER-Redux contains a very simple implementation of Observable, with the name 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first. It contains a typical counter Example app for demonstration purposes.
 
-## Requirements
 
 ## Installation
 
