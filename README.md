@@ -8,7 +8,7 @@
 VISPER-Redux is an implementation of the redux-architecture in swift. 
 It provides you with an app architecture to tackle the problem of distributed app state and state changes.
 
-It is heavyly inspired by [ReReactiveSwift](https://github.com/ReSwift/ReactiveReSwift) (we even copied most of it's documentation since the architecture is nearly identical) and adds just some extensions to tackle composite app states and some integration features to use it in the [VISPER](https://github.com/barteljan/VISPER)-Application Framework.
+It is heavyly inspired by [ReReactiveSwift](https://github.com/ReSwift/ReactiveReSwift) and adds just some extensions to tackle composite app states and some integration features to use it in the [VISPER](https://github.com/barteljan/VISPER)-Application Framework.
 
 
 If you want to learn more about redux, have a look at the following tutorials and documentations:
