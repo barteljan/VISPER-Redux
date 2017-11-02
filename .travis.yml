@@ -11,5 +11,5 @@ language: objective-c
 # - pod install --project-directory=Example
 script:
 - pod install --project-directory=Example
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/AareonCore.xcworkspace -scheme AareonCore-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/VISPER-Redux.xcworkspace -scheme VISPER-Redux-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
