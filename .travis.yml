@@ -12,4 +12,4 @@ language: objective-c
 script:
 - pod install --project-directory=Example
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/VISPER-Redux.xcworkspace -scheme VISPER-Redux-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint  --swift-version=4.0
+# - pod lib lint  --swift-version=4.0
